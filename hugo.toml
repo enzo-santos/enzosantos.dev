@@ -1,0 +1,347 @@
+baseURL = "https://enzosantos.dev"
+languageCode = "en-us"
+title = "Enzo Santos"
+theme = "hugo-profile"
+Paginate = 3
+enableRobotsTXT = true
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
+page = [ "HTML", "RSS" ]
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[[Menus.main]]
+identifier = "blog"
+name = "Blog"
+title = "Ver publicações"
+url = "/blogs"
+weight = 1
+
+[[Menus.main]]
+identifier = "gallery"
+name = "Galeria"
+title = "Ver imagens"
+url = "/gallery"
+weight = 2
+
+[params]
+title = "enzosantos.dev"
+description = "Text about my cool site"
+favicon = "/fav.png"
+useBootstrapCDN = false
+mathjax = false
+animate = true
+
+  [params.font]
+  fontSize = "1rem"
+  fontWeight = 400
+  lineHeight = 1.5
+  textAlign = "left"
+
+  [params.navbar]
+  align = "ms-auto"
+  brandName = "enzosantos.dev"
+  disableSearch = false
+  searchPlaceholder = "Pesquisar postagem"
+  enableSeparator = false
+
+    [params.navbar.stickyNavBar]
+    enable = true
+    showOnScrollUp = true
+
+    [params.navbar.menus]
+    disableAbout = false
+    disableExperience = false
+    disableEducation = false
+    disableProjects = false
+    disableAchievements = false
+    disableContact = false
+
+  [params.hero]
+  enable = true
+  intro = "Olá! Eu sou o"
+  title = "Enzo Santos."
+  subtitle = "Trabalho com web apps"
+  content = "Entusiasta no desenvolvimento de aplicativos web e mobile. Costumo utilizar tecnologias modernas para criar sites e aplicativos que tenham uma ótima aparência, sejam intuitivos e funcionem corretamente."
+  image = "/images/hero.jpeg"
+
+    [params.hero.bottomImage]
+    enable = true
+
+    [params.hero.button]
+    enable = false
+    name = "Resume"
+    url = "#"
+    download = true
+    newPage = false
+
+[[params.hero.socialLinks.fontAwesomeIcons]]
+icon = "fab fa-github"
+url = "https://github.com/enzo-santos"
+
+[[params.hero.socialLinks.fontAwesomeIcons]]
+icon = "fab fa-gitlab"
+url = "https://gitlab.com/enzo-santos"
+
+[[params.hero.socialLinks.fontAwesomeIcons]]
+icon = "fa-brands fa-linkedin"
+url = "https://www.linkedin.com/in/enzogsantos"
+
+[[params.hero.socialLinks.fontAwesomeIcons]]
+icon = "fa-brands fa-stack-overflow"
+url = "https://stackoverflow.com/users/9997212"
+
+  [params.about]
+  enable = true
+  title = "Sobre"
+  image = "/images/me.jpeg"
+  content = """
+Sou um desenvolvedor de software com experiência em criar aplicativos móveis e páginas web responsivas. Estou cursando atualmente Ciência da Computação e tenho interesse na área de engenharia de software, implementando padrões de design e código limpo (*clean code*). Atualmente trabalho como desenvolvedor de software na Secretaria Municipal de Educação de Belém/PA.
+
+Em Flutter, costumo trabalhar com bibliotecas como *bloc* e *provider* para gerenciamento de estado, *responsive_framework* e *device_preview* para controle da responsividade, e *get_it* para injeção de dependências. Em Python, geralmente utilizo as bibliotecas *mypy* para validação da tipagem do código, *pydantic* para serialização e validação de modelos, e *flask* para criação de APIs.
+
+Nas minhas horas vagas, gosto de praticar ciclismo 🚴 e ouvir rock clássico 🎶."""
+
+    [params.about.skills]
+    enable = true
+    title = "Essas são algumas tecnologias que eu venho trabalhando ultimamente:"
+    items = [ "Flutter", "Python", "Go", "Git", "Typescript", "Kotlin" ]
+
+  [params.experience]
+  enable = true
+  title = "Experiência profissional"
+
+        [[params.experience.items]]
+    job = "Desenvolvedor de Software"
+    company = "SEMEC"
+    companyUrl = "https://semec.belem.pa.gov.br"
+    date = "Setembro 2022 - atualmente"
+    content = """
+Atualmente atuo como o único desenvolvedor de software da Secretaria. Sendo assim, tenho contato com diversas operações da engenharia de software, como coleta de requisitos, criação de protótipos utilizando o Figma, testes manuais para verificar a funcionalidade e execução de deploys contínuos através do GitHub Actions e GitLab CI. Por ser uma função descentralizada, recebo demandas de diversos setores, sendo algumas delas:
+
+- Desenvolvimento de *web app* solicitado pela Coordenação Integrada de Educação e Saúde (CINES) para monitoramento de alertas de casos de doenças infecciosas e violências na rede municipal de educação
+- Desenvolvimento de *web app* solicitado pela Diretoria Geral (DIGE) para monitoramento de diversos aspectos das unidades educacionais por meio de formulários preenchidos por seus gestores
+- Desenvolvimento de site solicitado pela Coordenação de Jovens, Adultos e Idosos (COEJAI) para gestão dos pagamentos e atividades desenvolvidas pelos alfabetizadores do projeto Alfabetiza Belém
+- Desenvolvimento de scripts diversos solicitados pelo Censo Escolar, como disparo de e-mails em massa para gestores e validação de arquivos de migração para a plataforma federal Educacenso
+- Desenvolvimento de site solicitado pelo Núcleo de Tecnologia da Informação (NTI) para gestão e confecção de crachás a serem emitidos pelos próprios servidores da Secretaria
+"""
+
+      [params.experience.items.featuredLink]
+      enable = false
+      url = "https://example.com"
+
+      [params.experience.items.info]
+      enable = false
+
+        [[params.experience.items]]
+    job = "Desenvolvedor de Software"
+    company = "SESMA"
+    companyUrl = "https://sesma.belem.pa.gov.br"
+    date = "Fevereiro 2022 - Dezembro 2022"
+    content = """
+Atuei como estagiário na área de desenvolvimento de software, principalmente voltado para aplicativos móveis e sites web. Meu chefe imediato era gestor de TI, portanto fiquei focado a maior parte do tempo na parte mais técnica ao invés de coletar requisitos com o cliente. Trabalhei com mais um desenvolvedor que também ajudava no *front-end*, desenvolvendo habilidades de programação em pares. As demandas que surgiram, geralmente fornecidas pelo meu superior direto, foram:
+
+- Desenvolvimento de site para sugestão de diagnóstico baseado nos sintomas percebidos por um paciente
+- Desenvolvimento de site responsivo para informar sobre métodos de prevenção da raiva humana
+- Desenvolvimento de *web app* para monitoramento da campanha de vacinação antirrábica de 2022 
+- Desenvolvimento de *web app* para gerenciamento do calendário de consultas e exames para gestantes
+"""
+
+      [params.experience.items.info]
+      enable = false
+
+      [params.experience.items.featuredLink]
+      enable = false
+      url = "https://example.com"
+
+  [params.education]
+  enable = true
+  index = false
+  title = "Educação"
+
+    [[params.education.items]]
+    title = "Bacharelado em Ciência da Computação"
+    date = "2018 - atualmente"
+    content = """
+Fui coautor como desenvolvedor de nove artigos referentes ao aplicativo Momentum Science, sendo um deles com implementação de algoritmos de aprendizado de máquina:
+- [Intra and Inter-Device Reliabilities of the Instrumented Timed-Up and Go Test Using Smartphones in Young Adult Population](https://doi.org/10.3390/s24092918) - Sensors
+- [Sex-related difference in the retinal structure of young adults: a machine learning approach](https://doi.org/10.3389/fmed.2023.1275308) - Frontiers in Medicine
+- [Smartphone-based evaluation of static balance and mobility in long-lasting COVID-19 patients](https://doi.org/10.3389/fneur.2023.1277408) - Frontiers in Neurology
+- [The role of sex and handedness in the performance of the smartphone-based Finger-Tapping Test](https://doi.org/10.1371/journal.pdig.0000304) - PLOS Digital Health
+- [The hand tremor spectrum is modified by the inertial sensor mass during lightweight wearable and smartphone-based assessment in healthy young subjects](https://doi.org/10.1038/s41598-022-21310-4) - Scientific Reports
+- [Wearable Devices and Smartphone Inertial Sensors for Static Balance Assessment: A Concurrent Validity Study in Young Adult Population](https://doi.org/10.3390/jpm12071019) - Journal of Personalized Medicine
+- [Validity and reliability of a smartphone-based assessment for anticipatory and compensatory postural adjustments during predictable perturbations](https://doi.org/10.1016/j.gaitpost.2022.05.002) - Gait & Posture
+- [Validity and Reliability of Smartphone App for Evaluating Postural Adjustments during Step Initiation](https://doi.org/10.3390/s22082935) - Sensors
+- [Hand Resting Tremor Assessment of Healthy and Patients With Parkinson's Disease: An Exploratory Machine Learning Study](https://doi.org/10.3389/fbioe.2020.00778) - Frontiers in Bioengineering and Biotechnology
+
+**Atividades extracurriculares**
+  - Participação do XXXIX Congresso da Sociedade Brasileira de Computação (40h)
+  - Apresentação do trabalho "Entendendo os desafios de portadores de labirintite através do uso de tecnologias móveis" no II Seminário Integrado de Ensino, Pesquisa e Extensão da UFPA
+  - Ministração do curso "Kotlin para programação Android" (6h) pelo Centro de Competências em Software Livre (CCSL) da UFPA
+  - Ministração da palestra "Desenvolvimento de aplicativo para avaliação do equilíbrio" no IV Simpósio Nacional de Bioética e Experimentação Animal da Federação de Sociedades de Biologia Experimental (FeSBE)
+  - Participação do evento "Explorando a engenharia de software na indústria"
+  - Ministração do workshop "Curso Flutter de Verão" (240h)
+  """
+
+      [params.education.items.school]
+      name = "Universidade Federal do Pará"
+      url = "https://ufpa.br"
+
+
+  [params.achievements]
+  title = "Conquistas"
+  enable = true
+
+    [[params.achievements.items]]
+    title = "dORM"
+    content = "Desenvolvi uma ORM (mapeamento objeto-relacional) agnóstica para Dart que facilita a criação de modelos e operações com banco de dados"
+    url = "https://github.com/beet-software/dorm"
+    image = "/images/achievements/dorm.png"
+
+    [[params.achievements.items]]
+    title = "Código aberto"
+    content = "Contribui em cinco projetos pequenos de código aberto focados em Flutter, sendo alguns deles file_saver e whatsapp_unilink"
+    image = "/images/achievements/opensource.png"
+
+    [[params.achievements.items]]
+    title = "Conecta Startup Brasil"
+    content = "Avancei para a segunda fase do programa Conecta Startup Brasil com o desenvolvimento do aplicativo ATH Platform"
+    url = "https://conectastartupbrasil.org.br/o-programa"
+    image = "/images/achievements/conecta.png"
+
+
+  [params.projects]
+  enable = true
+  title = "Projetos"
+
+    [[params.projects.items]]
+    title = "Meu Crachá Digital"
+    content = "Site para facilitar a criação e gestão de emissão de crachás de funcionários de forma digital e automatizada"
+    image = "/images/projects/meucrachadigital.jpg"
+    badges = [ "Flutter", "Firebase", "Python", "CI/CD" ]
+
+    [[params.projects.items]]
+    title = "Guardiões da Saúde na Escola"
+    content = """Plataforma para gerenciamento de alertas de COVID-19, violências e doenças infecciosas nas escolas públicas municipais de Belém
+    """
+    image = "/images/projects/guardioes.png"
+    badges = [ "Flutter", "Firebase", "CI/CD", "Responsividade" ]
+
+      [[params.projects.items.links]]
+      icon = "fa-brands fa-google-play"
+      url = "https://play.google.com/store/apps/details?id=br.gov.pa.belem.semec.guardioes"
+
+      [[params.projects.items.links]]
+      icon = "fa-brands fa-youtube"
+      url = "https://www.youtube.com/watch?v=v7s_4wXF_A4"
+
+    [[params.projects.items]]
+    title = "Gera Frequência"
+    content = "Site para gerar dinamicamente folhas de ponto individuais a partir de informações de funcionários inseridas no sistema"
+    image = "/images/projects/gerafrequencia.png"
+    badges = [ "Flutter", "CI/CD", "Responsividade", "PDF" ]
+
+      [params.projects.items.featured]
+      name = "Link"
+      link = "https://gerafrequencia.web.app"
+
+      [[params.projects.items.links]]
+      icon = "fab fa-github"
+      url = "https://github.com/enzo-santos/gerafrequencia"
+    
+    [[params.projects.items]]
+    title = "SEMEC na Escola"
+    content = "Plataforma para diagnosticar e assessorar as escolas públicas municipais de Belém por meio de formulários preenchidos por seus gestores"
+    image = "/images/projects/semecnaescola.png"
+    badges = [ "Flutter", "Firebase", "CI/CD", "Responsividade" ]
+
+      [[params.projects.items.links]]
+      icon = "fa-brands fa-google-play"
+      url = "https://play.google.com/store/apps/details?id=br.gov.pa.pmb.semec.semec_na_escola"
+
+    [[params.projects.items]]
+    title = "Sistema MOVA"
+    content = "Site para gerenciar a implantação do projeto Alfabetiza Belém na rede municipal de educação de Belém"
+    image = "/images/projects/mova.png"
+    badges = [ "Flutter", "Firebase", "CI/CD" ]
+
+    [[params.projects.items]]
+    title = "Momentum Science"
+    content = "Aplicativo móvel para processar e armazenar dados gerados por sensores inerciais presentes em dispositivos móveis"
+    image = "/images/projects/momentum.png"
+    badges = [ "Flutter", "Firebase" ]
+
+      [[params.projects.items.links]]
+      icon = "fa-brands fa-google-play"
+      url = "https://play.google.com/store/apps/details?id=com.beetsoftware.momentumv2"
+
+    [[params.projects.items]]
+    title = "Belém Vacinada Pet"
+    content = "Plataforma para gerenciamento das doses utilizadas e aplicadas da campanha de 2022 da vacinação antirrábica de pets de Belém"
+    image = "/images/projects/belemvacinada.png"
+    badges = [ "Flutter", "Firebase", "CI/CD" ]
+
+      [[params.projects.items.links]]
+      icon = "fa-brands fa-google-play"
+      url = "https://play.google.com/store/apps/details?id=br.gov.pa.belem.sesma.belemvacinadapet"
+
+    [[params.projects.items]]
+    title = "Bored Button"
+    content = "Site com implementações de alguns jogos conhecidos, como Sudoku, 2048, Genius e Wordle"
+    image = "/images/projects/boredbutton.png"
+    badges = [ "Kotlin", "React", "CI/CD" ]
+
+      [params.projects.items.featured]
+      name = "Link"
+      link = "https://enzo-santos.github.io/bored-button"
+
+      [[params.projects.items.links]]
+      icon = "fab fa-github"
+      url = "https://github.com/enzo-santos/bored-button"
+
+  [params.contact]
+  enable = true
+  title = "Contato"
+  content = "Minha caixa de entrada está sempre aberta. Se você tiver uma pergunta ou só quiser dar um oi, farei o possível para responder!"
+  btnName = "Envie um e-mail"
+  btnLink = "mailto:enzo.santos29@hotmail.com"
+
+[params.footer.recentPosts]
+path = "blogs"
+count = 3
+title = "Posts recentes"
+enable = true
+disableFeaturedImage = false
+
+[params.footer.socialNetworks]
+
+
+  [params.listPages]
+  disableFeaturedImage = false
+
+  [params.singlePages]
+  socialShare = true
+
+    [params.singlePages.readTime]
+    enable = true
+    content = "min read"
+
+    [params.singlePages.scrollprogress]
+    enable = true
+
+    [params.singlePages.tags]
+    openInNewTab = true
+
+  [params.terms]
+  read = "Abrir"
+  toc = "Sumário"
+  copyright = "Todos os direitos reservados"
+  pageNotFound = "Página não encontrada"
+  emailText = "Check out this site"
+
+  [params.datesFormat]
+  article = "Jan 2, 2006"
+  articleList = "Jan 2, 2006"
+  articleRecent = "Jan 2, 2006"
