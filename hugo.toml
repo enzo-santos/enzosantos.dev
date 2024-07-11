@@ -201,15 +201,20 @@ Fui coautor como desenvolvedor de nove artigos referentes ao aplicativo Momentum
     image = "/images/achievements/dorm.png"
 
     [[params.achievements.items]]
-    title = "Código aberto"
-    content = "Contribui em cinco projetos pequenos de código aberto focados em Flutter, sendo alguns deles file_saver e whatsapp_unilink"
-    image = "/images/achievements/opensource.png"
+    title = "Patentes"
+    content = "Possuo o registro como coautor de duas patentes para os aplicativos Meu Coração (agosto de 2021) e Momentum Science (agosto de 2022)"
+    image = "/images/achievements/patentes.jpg"
 
     [[params.achievements.items]]
     title = "Conecta Startup Brasil"
     content = "Avancei para a segunda fase do programa Conecta Startup Brasil com o desenvolvimento do aplicativo ATH Platform"
     url = "https://conectastartupbrasil.org.br/o-programa"
     image = "/images/achievements/conecta.png"
+
+    [[params.achievements.items]]
+    title = "Código aberto"
+    content = "Contribui em cinco projetos pequenos de código aberto focados em Flutter, sendo alguns deles file_saver e whatsapp_unilink"
+    image = "/images/achievements/opensource.png"
 
 
   [params.projects]
