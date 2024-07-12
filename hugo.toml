@@ -96,7 +96,7 @@ url = "https://stackoverflow.com/users/9997212"
   [params.about]
   enable = true
   title = "Sobre"
-  image = "/images/me.jpeg"
+  image = "/images/me.png"
   content = """
 Sou um desenvolvedor de software com experiência em criar aplicativos móveis e páginas web responsivas. Estou cursando atualmente Ciência da Computação e tenho interesse na área de engenharia de software, implementando padrões de design e código limpo (*clean code*). Atualmente trabalho como desenvolvedor de software na Secretaria Municipal de Educação de Belém/PA.
 
