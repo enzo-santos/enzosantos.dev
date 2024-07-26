@@ -233,7 +233,7 @@ Fui coautor, também como desenvolvedor, de um artigo de aprendizado de máquina
     [[params.projects.items]]
     title = "Meu Crachá Digital"
     content = "Site para facilitar a criação e gestão de emissão de crachás de funcionários de forma digital e automatizada"
-    image = "/images/projects/meucrachadigital.jpg"
+    image = "/images/projects/meucrachadigital.png"
     badges = [ "Flutter", "Firebase", "Python", "CI/CD" ]
 
     [[params.projects.items]]
