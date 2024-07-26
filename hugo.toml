@@ -186,12 +186,12 @@ Fui coautor, também como desenvolvedor, de um artigo de aprendizado de máquina
 - [Hand Resting Tremor Assessment of Healthy and Patients With Parkinson's Disease: An Exploratory Machine Learning Study](https://doi.org/10.3389/fbioe.2020.00778) - Frontiers in Bioengineering and Biotechnology (2020)
 
 **Atividades extracurriculares**
-  - Participação do XXXIX Congresso da Sociedade Brasileira de Computação (40h)
-  - Apresentação do trabalho "Entendendo os desafios de portadores de labirintite através do uso de tecnologias móveis" no II Seminário Integrado de Ensino, Pesquisa e Extensão da UFPA
-  - Ministração do curso "Kotlin para programação Android" (6h) pelo Centro de Competências em Software Livre (CCSL) da UFPA
-  - Ministração da palestra "Desenvolvimento de aplicativo para avaliação do equilíbrio" no IV Simpósio Nacional de Bioética e Experimentação Animal da Federação de Sociedades de Biologia Experimental (FeSBE)
-  - Participação do evento "Explorando a engenharia de software na indústria"
-  - Ministração do workshop "Curso Flutter de Verão" (240h)
+  - Ministração do workshop "Curso Flutter de Verão" - 214h (2023)
+  - Participação do evento "Explorando a engenharia de software na indústria" (2023)
+  - Ministração da palestra "Desenvolvimento de aplicativo para avaliação do equilíbrio" no IV Simpósio Nacional de Bioética e Experimentação Animal da Federação de Sociedades de Biologia Experimental (FeSBE) (2022)
+  - Ministração do curso "Kotlin para programação Android" pelo Centro de Competências em Software Livre (CCSL) - 6h (2020)
+  - Apresentação do trabalho "Entendendo os desafios de portadores de labirintite através do uso de tecnologias móveis" no II Seminário Integrado de Ensino, Pesquisa e Extensão (2019)
+  - Participação do XXXIX Congresso da Sociedade Brasileira de Computação - 40h (2019)
   """
 
       [params.education.items.school]
