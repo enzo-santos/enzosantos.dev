@@ -28,7 +28,7 @@ weight = 2
 
 [params]
 title = "enzosantos.dev"
-description = "Text about my cool site"
+description = "Meu portfolio como desenvolvedor de software."
 favicon = "/fav.png"
 useBootstrapCDN = false
 mathjax = false
@@ -222,7 +222,7 @@ Fui coautor, também como desenvolvedor, de um artigo de aprendizado de máquina
 
     [[params.achievements.items]]
     title = "Código aberto"
-    content = "Contribui em cinco projetos pequenos de código aberto focados em Flutter, sendo alguns deles file_saver e whatsapp_unilink"
+    content = "Tive contribuições aprovadas em cinco projetos pequenos de código aberto focados em Flutter, incluindo file_saver e whatsapp_unilink"
     image = "/images/achievements/opensource.png"
 
 
