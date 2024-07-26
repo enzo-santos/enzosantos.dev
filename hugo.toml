@@ -1,5 +1,5 @@
 baseURL = "https://enzosantos.dev"
-languageCode = "en-us"
+languageCode = "pt"
 title = "Enzo Santos"
 theme = "hugo-profile"
 Paginate = 3
