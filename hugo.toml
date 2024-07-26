@@ -165,16 +165,25 @@ Atuei como estagiário na área de desenvolvimento de software, principalmente v
     title = "Bacharelado em Ciência da Computação"
     date = "2018 - atualmente"
     content = """
-Fui coautor como desenvolvedor de nove artigos referentes ao aplicativo Momentum Science, sendo um deles com implementação de algoritmos de aprendizado de máquina:
-- [Intra and Inter-Device Reliabilities of the Instrumented Timed-Up and Go Test Using Smartphones in Young Adult Population](https://doi.org/10.3390/s24092918) - Sensors
-- [Sex-related difference in the retinal structure of young adults: a machine learning approach](https://doi.org/10.3389/fmed.2023.1275308) - Frontiers in Medicine
-- [Smartphone-based evaluation of static balance and mobility in long-lasting COVID-19 patients](https://doi.org/10.3389/fneur.2023.1277408) - Frontiers in Neurology
-- [The role of sex and handedness in the performance of the smartphone-based Finger-Tapping Test](https://doi.org/10.1371/journal.pdig.0000304) - PLOS Digital Health
-- [The hand tremor spectrum is modified by the inertial sensor mass during lightweight wearable and smartphone-based assessment in healthy young subjects](https://doi.org/10.1038/s41598-022-21310-4) - Scientific Reports
-- [Wearable Devices and Smartphone Inertial Sensors for Static Balance Assessment: A Concurrent Validity Study in Young Adult Population](https://doi.org/10.3390/jpm12071019) - Journal of Personalized Medicine
-- [Validity and reliability of a smartphone-based assessment for anticipatory and compensatory postural adjustments during predictable perturbations](https://doi.org/10.1016/j.gaitpost.2022.05.002) - Gait & Posture
-- [Validity and Reliability of Smartphone App for Evaluating Postural Adjustments during Step Initiation](https://doi.org/10.3390/s22082935) - Sensors
-- [Hand Resting Tremor Assessment of Healthy and Patients With Parkinson's Disease: An Exploratory Machine Learning Study](https://doi.org/10.3389/fbioe.2020.00778) - Frontiers in Bioengineering and Biotechnology
+Publiquei 10 artigos em revistas científicas ao longo da minha graduação.
+
+Fui autor principal de um artigo referente ao aplicativo Guardiões da Saúde:
+
+- [Guardiões da saúde: uma solução complementar no retorno monitorado às aulas presenciais durante a pandemia de Covid-19 na Rede Municipal de Educação de Belém do Pará no Brasil](https://doi.org/10.54033/cadpedv21n7-231) - Caderno Pedagógico (2024)
+
+Fui coautor, como desenvolvedor, de oito artigos referentes ao aplicativo Momentum Science:
+- [Intra and Inter-Device Reliabilities of the Instrumented Timed-Up and Go Test Using Smartphones in Young Adult Population](https://doi.org/10.3390/s24092918) - Sensors (2024)
+- [Sex-related difference in the retinal structure of young adults: a machine learning approach](https://doi.org/10.3389/fmed.2023.1275308) - Frontiers in Medicine (2023)
+- [Smartphone-based evaluation of static balance and mobility in long-lasting COVID-19 patients](https://doi.org/10.3389/fneur.2023.1277408) - Frontiers in Neurology (2023)
+- [The role of sex and handedness in the performance of the smartphone-based Finger-Tapping Test](https://doi.org/10.1371/journal.pdig.0000304) - PLOS Digital Health (2023)
+- [The hand tremor spectrum is modified by the inertial sensor mass during lightweight wearable and smartphone-based assessment in healthy young subjects](https://doi.org/10.1038/s41598-022-21310-4) - Scientific Reports (2022)
+- [Wearable Devices and Smartphone Inertial Sensors for Static Balance Assessment: A Concurrent Validity Study in Young Adult Population](https://doi.org/10.3390/jpm12071019) - Journal of Personalized Medicine (2022)
+- [Validity and reliability of a smartphone-based assessment for anticipatory and compensatory postural adjustments during predictable perturbations](https://doi.org/10.1016/j.gaitpost.2022.05.002) - Gait & Posture (2022)
+- [Validity and Reliability of Smartphone App for Evaluating Postural Adjustments during Step Initiation](https://doi.org/10.3390/s22082935) - Sensors (2022)
+
+Fui coautor, também como desenvolvedor, de um artigo de aprendizado de máquina para avaliar pacientes com a Doença de Parkinson:
+
+- [Hand Resting Tremor Assessment of Healthy and Patients With Parkinson's Disease: An Exploratory Machine Learning Study](https://doi.org/10.3389/fbioe.2020.00778) - Frontiers in Bioengineering and Biotechnology (2020)
 
 **Atividades extracurriculares**
   - Participação do XXXIX Congresso da Sociedade Brasileira de Computação (40h)
