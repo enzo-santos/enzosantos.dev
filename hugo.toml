@@ -359,6 +359,6 @@ disableFeaturedImage = false
   emailText = "Check out this site"
 
   [params.datesFormat]
-  article = "Jan 2, 2006"
-  articleList = "Jan 2, 2006"
-  articleRecent = "Jan 2, 2006"
+  article = "2 Jan 2006"
+  articleList = "2 Jan 2006"
+  articleRecent = "2 Jan 2006"
