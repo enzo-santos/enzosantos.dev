@@ -340,7 +340,7 @@ disableFeaturedImage = false
 
     [params.singlePages.readTime]
     enable = true
-    content = "min read"
+    content = "min de leitura"
 
     [params.singlePages.scrollprogress]
     enable = true
